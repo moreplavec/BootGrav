@@ -1,0 +1,11 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    {{ page.content }}
+    {% for module in page.collection() %}
+        {% if module.header.title|contains('Slider')%}
+        {% else %}
+            {{ module.content }}
+        {% endif %}
+    {% endfor %}
+{% endblock %}
