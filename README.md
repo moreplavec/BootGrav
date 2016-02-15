@@ -4,6 +4,8 @@
 
 BootGrav is the simple [Grav](http://getgrav.org) theme based on minimalist Twitter Bootstrap, demo template [Carousel](http://getbootstrap.com/examples/carousel/).
 
+![BootGrav preview](bootgrav-screenshot.png)
+
 # Installation
 
 To install this theme, just download the zip version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `bootgrav`. You can find these files on [GitHub](https://github.com/moreplavec/bootgrav).
